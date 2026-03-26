@@ -12,14 +12,12 @@ const seasonGames = [
   { opponent: "vs. Ohio State", date: "Nov 29", result: null, attended: false },
 ];
 
-const BraggingRights = () => {
-  const [shared, setShared] = useState(false);
-  const attendedCount = seasonGames.filter((g) => g.attended).length;
+interface BraggingRightsProps {
+  onShare: () => void;
+}
 
-  const handleShare = () => {
-    setShared(true);
-    setTimeout(() => setShared(false), 2000);
-  };
+const BraggingRights = ({ onShare }: BraggingRightsProps) => {
+  const attendedCount = seasonGames.filter((g) => g.attended).length;
 
   return (
     <div className="px-4 mt-6">
@@ -36,19 +34,13 @@ const BraggingRights = () => {
             </div>
           </div>
           <button
-            onClick={handleShare}
+            onClick={onShare}
             className="p-2 rounded-full bg-secondary active:bg-muted transition-colors"
             aria-label="Share stats"
           >
             <Share2 className="w-4 h-4 text-muted-foreground" />
           </button>
         </div>
-
-        {shared && (
-          <div className="mb-3 p-2 bg-win/10 border border-win/20 rounded-lg text-center">
-            <p className="text-xs text-win font-medium">📋 Stats copied to clipboard! Share your streak!</p>
-          </div>
-        )}
 
         {/* Progress Bar */}
         <div className="mb-2">
