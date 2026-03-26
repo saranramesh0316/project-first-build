@@ -1,9 +1,10 @@
-import { useState } from "react";
 import { Diamond } from "lucide-react";
 
-const TicketCard = () => {
-  const [showQR, setShowQR] = useState(false);
+interface TicketCardProps {
+  onShowQR: () => void;
+}
 
+const TicketCard = ({ onShowQR }: TicketCardProps) => {
   return (
     <div className="mx-4 -mt-12 relative z-20">
       <div className="bg-card rounded-xl border border-border p-5 shadow-lg shadow-background/50">
@@ -37,39 +38,22 @@ const TicketCard = () => {
           </div>
 
           <button
-            onClick={() => setShowQR(!showQR)}
+            onClick={onShowQR}
             className="w-24 h-24 bg-foreground rounded-lg flex items-center justify-center transition-transform active:scale-95"
             aria-label="Show QR Code"
           >
-            {showQR ? (
-              <div className="grid grid-cols-5 gap-0.5 p-2">
-                {Array.from({ length: 25 }).map((_, i) => (
-                  <div
-                    key={i}
-                    className={`w-3 h-3 rounded-sm ${
-                      [0,1,2,4,5,6,8,10,12,14,16,18,20,22,23,24].includes(i)
-                        ? "bg-background"
-                        : "bg-foreground"
-                    }`}
-                  />
-                ))}
-              </div>
-            ) : (
-              <div className="text-center">
-                <div className="grid grid-cols-5 gap-0.5 p-2 opacity-40">
-                  {Array.from({ length: 25 }).map((_, i) => (
-                    <div
-                      key={i}
-                      className={`w-3 h-3 rounded-sm ${
-                        [0,1,2,4,5,6,8,10,12,14,16,18,20,22,23,24].includes(i)
-                          ? "bg-background"
-                          : "bg-foreground"
-                      }`}
-                    />
-                  ))}
-                </div>
-              </div>
-            )}
+            <div className="grid grid-cols-5 gap-0.5 p-2">
+              {Array.from({ length: 25 }).map((_, i) => (
+                <div
+                  key={i}
+                  className={`w-3 h-3 rounded-sm ${
+                    [0,1,2,4,5,6,8,10,12,14,16,18,20,22,23,24].includes(i)
+                      ? "bg-background"
+                      : "bg-foreground"
+                  }`}
+                />
+              ))}
+            </div>
           </button>
         </div>
 
