@@ -1,16 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroHeader from "@/components/HeroHeader";
+import TicketCard from "@/components/TicketCard";
+import GamedayInfo from "@/components/GamedayInfo";
+import VIPPerks from "@/components/VIPPerks";
+import BraggingRights from "@/components/BraggingRights";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background max-w-md mx-auto relative">
+      <HeroHeader />
+      <TicketCard />
+      <GamedayInfo />
+      <VIPPerks />
+      <BraggingRights />
+
+      {/* Footer */}
+      <div className="px-4 py-8 mt-4 text-center">
+        <p className="text-xs text-muted-foreground">Michigan VIP Season Ticket · 2025</p>
+        <p className="text-xs text-primary font-display font-semibold mt-1">Go Blue! 〽️</p>
+      </div>
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
