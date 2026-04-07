@@ -9,7 +9,7 @@ const QRModal = ({ open, onClose }: QRModalProps) => {
   if (!open) return null;
 
   return (
-    <div className="absolute inset-0 z-50 flex items-center justify-center bg-background/95 backdrop-blur-sm animate-in fade-in duration-200 overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/95 backdrop-blur-sm max-w-md mx-auto animate-in fade-in duration-200 overflow-y-auto">
       <div className="w-full max-w-sm mx-4 flex flex-col items-center">
         {/* Close button */}
         <button
