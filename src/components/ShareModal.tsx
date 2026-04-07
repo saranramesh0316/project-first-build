@@ -57,7 +57,7 @@ const ShareModal = ({ open, onClose }: ShareModalProps) => {
     <div className="fixed inset-0 z-50 flex flex-col bg-background animate-in slide-in-from-bottom duration-300">
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-border">
-        <h2 className="text-lg font-display font-bold text-foreground">Share Experience</h2>
+        <h2 className="text-lg font-bold text-foreground">Share Experience</h2>
         <button onClick={onClose} className="p-2 rounded-full bg-secondary" aria-label="Close">
           <X className="w-5 h-5 text-foreground" />
         </button>
@@ -71,7 +71,7 @@ const ShareModal = ({ open, onClose }: ShareModalProps) => {
             <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent" />
             <div className="absolute bottom-3 left-4 right-4">
               <div className="flex items-center gap-2 mb-1">
-                <span className="text-primary font-display text-sm font-bold">M</span>
+                <span className="text-primary text-sm font-bold">M</span>
                 <span className="text-xs text-primary font-semibold">MICHIGAN VIP</span>
               </div>
               <p className="text-sm text-foreground font-semibold">Michigan vs. Ohio State</p>

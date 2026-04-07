@@ -15,7 +15,7 @@ const HeroHeader = () => {
       <div className="relative z-10 flex items-start justify-between p-5 pt-12">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-primary font-display text-lg font-bold tracking-wider">M</span>
+            <span className="text-primary text-lg font-bold tracking-wider">M</span>
             <span className="text-xs text-muted-foreground uppercase tracking-widest">Welcome Back</span>
           </div>
           <h1 className="text-3xl font-display font-bold text-primary">Gordon</h1>

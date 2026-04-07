@@ -72,7 +72,7 @@ const FoodOrderModal = ({ open, onClose }: FoodOrderModalProps) => {
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-border">
         <div>
-          <h2 className="text-lg font-display font-bold text-foreground">Order Food</h2>
+          <h2 className="text-lg font-bold text-foreground">Order Food</h2>
           <div className="flex items-center gap-1 text-xs text-muted-foreground mt-0.5">
             <MapPin className="w-3 h-3" />
             <span>Delivering to Section 27, Row AA, Seat 12</span>
@@ -111,7 +111,7 @@ const FoodOrderModal = ({ open, onClose }: FoodOrderModalProps) => {
           <div className="w-16 h-16 rounded-full bg-win/20 flex items-center justify-center mb-4">
             <Check className="w-8 h-8 text-win" />
           </div>
-          <h3 className="text-xl font-display font-bold text-foreground mb-2">Order Placed!</h3>
+          <h3 className="text-xl font-bold text-foreground mb-2">Order Placed!</h3>
           <div className="flex items-center gap-2 text-muted-foreground">
             <Clock className="w-4 h-4" />
             <span className="text-sm">Estimated delivery: 10-15 min to your seat</span>
@@ -185,7 +185,7 @@ const FoodOrderModal = ({ open, onClose }: FoodOrderModalProps) => {
               <ShoppingCart className="w-5 h-5" />
               <span>{cartCount} item{cartCount > 1 ? "s" : ""}</span>
             </div>
-            <span className="text-lg font-display font-bold">${cartTotal.toFixed(2)}</span>
+            <span className="text-lg font-bold">${cartTotal.toFixed(2)}</span>
           </button>
         </div>
       )}

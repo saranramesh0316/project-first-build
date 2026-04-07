@@ -41,7 +41,7 @@ const GamedayInfo = () => {
               <item.icon className="w-4 h-4 text-muted-foreground" />
               <span className="text-[10px] text-muted-foreground uppercase tracking-widest">{item.label}</span>
             </div>
-            <p className="text-lg font-display font-bold text-foreground mb-0.5">{item.value}</p>
+            <p className="text-lg font-bold text-foreground mb-0.5">{item.value}</p>
             <p className="text-xs text-muted-foreground leading-relaxed">{item.detail}</p>
           </button>
         ))}

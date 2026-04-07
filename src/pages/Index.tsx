@@ -43,7 +43,7 @@ const Index = () => {
       {/* Footer */}
       <div className="px-4 py-8 mt-4 text-center">
         <p className="text-xs text-muted-foreground">Michigan VIP Season Ticket · 2025</p>
-        <p className="text-xs text-primary font-display font-semibold mt-1">Go Blue! 〽️</p>
+        <p className="text-xs text-primary font-semibold mt-1">Go Blue! 〽️</p>
       </div>
 
       {/* Modals */}
