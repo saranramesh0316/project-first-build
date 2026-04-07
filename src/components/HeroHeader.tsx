@@ -18,7 +18,7 @@ const HeroHeader = () => {
             <span className="text-primary font-display text-lg font-bold tracking-wider">M</span>
             <span className="text-xs text-muted-foreground uppercase tracking-widest">Welcome Back</span>
           </div>
-          <h1 className="text-3xl font-display font-bold text-foreground">Gordon</h1>
+          <h1 className="text-3xl font-display font-bold text-primary">Gordon</h1>
         </div>
         <div className="flex items-center gap-3">
           <button className="relative p-2 rounded-full bg-secondary/60 backdrop-blur-sm" aria-label="Notifications">
