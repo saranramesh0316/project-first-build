@@ -12,9 +12,9 @@ const TicketCard = ({ onShowQR }: TicketCardProps) => {
         <div className="absolute top-0 bottom-0 right-[8.5rem] w-px border-l border-dashed border-muted-foreground/25" />
 
         {/* Left notch */}
-        <div className="absolute top-1/2 -translate-y-1/2 -left-3 w-6 h-6 rounded-full bg-background" />
+        <div className="absolute top-1/2 -translate-y-1/2 -left-3 w-6 h-6 rounded-full bg-background border border-primary/60" />
         {/* Right notch */}
-        <div className="absolute top-1/2 -translate-y-1/2 -right-3 w-6 h-6 rounded-full bg-background" />
+        <div className="absolute top-1/2 -translate-y-1/2 -right-3 w-6 h-6 rounded-full bg-background border border-primary/60" />
 
         <div className="px-7 py-5">
           <div className="flex items-center justify-between mb-1">
