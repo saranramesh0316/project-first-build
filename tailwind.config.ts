@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Bitcount Grid Double", "sans-serif"],
+        display: ["Bitcount Grid Single", "sans-serif"],
         body: ["Inter", "sans-serif"],
       },
       colors: {
