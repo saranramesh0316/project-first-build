@@ -45,7 +45,7 @@ const BraggingRights = ({ onShare }: BraggingRightsProps) => {
         {/* Progress Bar */}
         <div className="mb-2">
           <div className="flex items-end gap-1 mb-1">
-            <span className="text-4xl font-display font-bold text-foreground">{attendedCount}</span>
+            <span className="text-4xl font-bold text-foreground">{attendedCount}</span>
             <span className="text-sm text-muted-foreground mb-1">/ {seasonGames.length} games</span>
           </div>
           <div className="w-full h-2 bg-secondary rounded-full overflow-hidden">
@@ -64,15 +64,15 @@ const BraggingRights = ({ onShare }: BraggingRightsProps) => {
         {/* Stats Row */}
         <div className="grid grid-cols-3 gap-3 mt-4 pt-3 border-t border-border">
           <div className="text-center">
-            <p className="text-2xl font-display font-bold text-foreground">23</p>
+            <p className="text-2xl font-bold text-foreground">23</p>
             <p className="text-[10px] text-muted-foreground uppercase tracking-wider">Lifetime</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-display font-bold text-foreground">3rd</p>
+            <p className="text-2xl font-bold text-foreground">3rd</p>
             <p className="text-[10px] text-muted-foreground uppercase tracking-wider">Season</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-display font-bold text-primary">Top 5%</p>
+            <p className="text-2xl font-bold text-primary">Top 5%</p>
             <p className="text-[10px] text-muted-foreground uppercase tracking-wider">Fan Rank</p>
           </div>
         </div>
