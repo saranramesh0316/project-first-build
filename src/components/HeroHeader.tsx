@@ -15,11 +15,11 @@ const HeroHeader = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background" />
       <div className="relative z-10 flex items-start justify-between p-5 pt-12">
         <div>
-          <div className="flex items-center gap-2 mb-1">
+          <div className="flex items-center gap-2 mb-2">
             <img src={michiganM} alt="Michigan M" className="w-5 h-4" />
             <span className="text-xs text-muted-foreground uppercase tracking-widest">Welcome Back</span>
           </div>
-          <h1 className="text-3xl font-body font-bold text-primary">Gordon</h1>
+          <h1 className="text-3xl font-body font-bold text-primary mt-1">Gordon</h1>
         </div>
         <div className="flex items-center gap-3">
           <button className="relative p-2 rounded-full bg-secondary/60 backdrop-blur-sm" aria-label="Notifications">
