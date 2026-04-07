@@ -35,7 +35,7 @@ const VIPPerks = () => {
 
   return (
     <div className="px-4 mt-6">
-      <h3 className="text-xs text-muted-foreground uppercase tracking-widest font-medium mb-3">Your VIP Perks</h3>
+      <h3 className="text-xs text-primary uppercase tracking-widest font-medium mb-3">Your VIP Perks</h3>
       <div className="bg-card rounded-xl border border-border overflow-hidden divide-y divide-border">
         {perks.map((perk, index) => (
           <button

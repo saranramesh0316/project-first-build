@@ -30,7 +30,7 @@ const infoItems = [
 const GamedayInfo = () => {
   return (
     <div className="px-4 mt-6">
-      <h3 className="text-xs text-muted-foreground uppercase tracking-widest font-medium mb-3">Gameday Info</h3>
+      <h3 className="text-xs text-primary uppercase tracking-widest font-medium mb-3">Gameday Info</h3>
       <div className="grid grid-cols-2 gap-3">
         {infoItems.map((item) => (
           <button
