@@ -6,6 +6,7 @@
       "name": "vite_react_shadcn_ts",
       "dependencies": {
         "@fontsource/bitcount-grid-double": "^5.2.2",
+        "@fontsource/bitcount-grid-single": "^5.2.2",
         "@fontsource/inter": "^5.2.8",
         "@hookform/resolvers": "^3.10.0",
         "@radix-ui/react-accordion": "^1.2.11",
@@ -171,6 +172,8 @@
     "@floating-ui/utils": ["@floating-ui/utils@0.2.10", "", {}, "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="],
 
     "@fontsource/bitcount-grid-double": ["@fontsource/bitcount-grid-double@5.2.2", "https://europe-west4-npm.pkg.dev/lovable-core-prod/sandbox-npm-cache/@fontsource/bitcount-grid-double/-/bitcount-grid-double-5.2.2.tgz", {}, "sha512-InlaZRD0pjUrR6aHg4AVgLH7pqf6ZAFWpIIUSa0GRLjDETAHcFV8Hm33oJPylasoJXlgqJL9v38n90R77yzhyQ=="],
+
+    "@fontsource/bitcount-grid-single": ["@fontsource/bitcount-grid-single@5.2.2", "https://europe-west4-npm.pkg.dev/lovable-core-prod/sandbox-npm-cache/@fontsource/bitcount-grid-single/-/bitcount-grid-single-5.2.2.tgz", {}, "sha512-bZ5tkJJqWZSLddaB9Vtasqc3E3IYjAYeIScUOB7lIWayID0JEp7uJwVnL8BIcHByprUDNhzHqteA4+T3am0uXw=="],
 
     "@fontsource/inter": ["@fontsource/inter@5.2.8", "https://europe-west4-npm.pkg.dev/lovable-core-prod/sandbox-npm-cache/@fontsource/inter/-/inter-5.2.8.tgz", {}, "sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg=="],
 
