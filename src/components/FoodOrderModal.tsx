@@ -68,7 +68,7 @@ const FoodOrderModal = ({ open, onClose }: FoodOrderModalProps) => {
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-background animate-in slide-in-from-bottom duration-300">
+    <div className="absolute inset-0 z-50 flex flex-col bg-background animate-in slide-in-from-bottom duration-300">
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-border">
         <div>
@@ -176,7 +176,7 @@ const FoodOrderModal = ({ open, onClose }: FoodOrderModalProps) => {
 
       {/* Cart footer */}
       {cartCount > 0 && !orderPlaced && (
-        <div className="fixed bottom-0 left-0 right-0 p-4 bg-card border-t border-border z-10">
+        <div className="absolute bottom-0 left-0 right-0 p-4 bg-card border-t border-border z-10">
           <button
             onClick={handlePlaceOrder}
             className="w-full flex items-center justify-between bg-primary text-primary-foreground rounded-xl p-4 font-semibold active:bg-primary/90 transition-colors"

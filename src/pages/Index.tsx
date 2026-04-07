@@ -15,7 +15,7 @@ const Index = () => {
   const [shareOpen, setShareOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-background max-w-md mx-auto relative">
+    <div className="min-h-screen bg-background max-w-md mx-auto relative overflow-hidden">
       <HeroHeader />
       <TicketCard onShowQR={() => setQrOpen(true)} />
       <GamedayInfo />

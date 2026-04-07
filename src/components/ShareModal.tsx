@@ -54,7 +54,7 @@ const ShareModal = ({ open, onClose }: ShareModalProps) => {
   const currentTemplate = templates[selectedTemplate];
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-background animate-in slide-in-from-bottom duration-300">
+    <div className="absolute inset-0 z-50 flex flex-col bg-background animate-in slide-in-from-bottom duration-300">
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-border">
         <h2 className="text-lg font-bold text-foreground">Share Experience</h2>
