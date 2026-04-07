@@ -1,5 +1,6 @@
 import { Bell, User } from "lucide-react";
 import stadiumHero from "@/assets/stadium-hero.jpg";
+import michiganM from "@/assets/michigan-m.png";
 
 const HeroHeader = () => {
   return (
