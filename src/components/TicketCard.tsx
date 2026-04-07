@@ -7,7 +7,7 @@ interface TicketCardProps {
 const TicketCard = ({ onShowQR }: TicketCardProps) => {
   return (
     <div className="mx-4 -mt-12 relative z-20">
-      <div className="relative bg-card rounded-2xl shadow-lg shadow-background/50 overflow-hidden">
+      <div className="relative bg-card rounded-2xl shadow-lg shadow-background/50 overflow-hidden border border-primary/60">
         {/* Dashed perforation line - positioned between content and QR */}
         <div className="absolute top-0 bottom-0 right-[8.5rem] w-px border-l border-dashed border-muted-foreground/25" />
 
@@ -16,7 +16,7 @@ const TicketCard = ({ onShowQR }: TicketCardProps) => {
         {/* Right notch */}
         <div className="absolute top-1/2 -translate-y-1/2 -right-3 w-6 h-6 rounded-full bg-background" />
 
-        <div className="p-5 pr-6">
+        <div className="px-7 py-5">
           <div className="flex items-center justify-between mb-1">
             <span className="text-xs text-muted-foreground uppercase tracking-widest font-medium">Next Game</span>
             <span className="flex items-center gap-1 bg-primary/15 text-primary text-xs font-semibold px-2.5 py-1 rounded-full">
