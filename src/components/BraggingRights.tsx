@@ -35,10 +35,10 @@ const BraggingRights = ({ onShare }: BraggingRightsProps) => {
           </div>
           <button
             onClick={onShare}
-            className="p-2 rounded-full bg-secondary active:bg-muted transition-colors"
+            className="p-2.5 rounded-full bg-primary active:bg-primary/80 transition-colors"
             aria-label="Share stats"
           >
-            <Share2 className="w-4 h-4 text-muted-foreground" />
+            <Share2 className="w-5 h-5 text-primary-foreground" />
           </button>
         </div>
 
