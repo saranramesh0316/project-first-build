@@ -21,7 +21,7 @@ const BraggingRights = ({ onShare }: BraggingRightsProps) => {
 
   return (
     <div className="px-4 mt-6">
-      <h3 className="text-xs text-muted-foreground uppercase tracking-widest font-medium mb-3">Bragging Rights</h3>
+      <h3 className="text-xs text-primary uppercase tracking-widest font-medium mb-3">Bragging Rights</h3>
 
       {/* Streak Card */}
       <div className="bg-card rounded-xl border border-border p-4 mb-3">
